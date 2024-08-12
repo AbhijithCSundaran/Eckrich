@@ -79,6 +79,12 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#main_content {
+  background-image: url(./images/photo1.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
 
 #text_holder {
   color: #fff8d9;

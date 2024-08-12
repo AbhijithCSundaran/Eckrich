@@ -51,7 +51,7 @@ img {
 }
 
 .full-height {
-  height: 250px;
+  height: 600px;
 }
 
 .left-0 {
@@ -79,21 +79,21 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#main_content {
+/* #main_content {
   background-image: url(./images/photo1.jpg);
   background-repeat: repeat;
   background-size: 100%;
-}
+} */
 
 
 #text_holder {
   color: #fff8d9;
   font-family: "RockidsSofted Reg";
-  font-size: 52.5px;
+  font-size: 77px;
   line-height: 0.81;
   letter-spacing: -0.1px;
-  left: 16px;
-  top: 21px;
+  left: 24px;
+  top: 105px;
 }
 
 #h1,
@@ -111,8 +111,8 @@ img {
 #cta {
   width: 94px;
   height: 27px;
-  right: 9px;
-  bottom: 12px;
+  right: 20px;
+  bottom: 33px;
   font-size: 11px;
   line-height: 1;
   letter-spacing: -0.1px;
