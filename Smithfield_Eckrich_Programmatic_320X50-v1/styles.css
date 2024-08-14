@@ -168,3 +168,8 @@ img {
   position: absolute;
   height: auto;
 }
+
+#logo {
+  transform: scale(1.05);
+  transform-origin: left;
+}

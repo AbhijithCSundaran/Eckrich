@@ -1,6 +1,5 @@
 // Banner duration timer start time
 var startTime;
-var clickTag="https://eckrich.sfdbrands.com/en-us/recipes/";
 // Timeline reference
 var tl;
 init();
@@ -29,8 +28,8 @@ function animate() {
 
   // tl.addLabel('frame_END', '+=4.5')
   tl.addLabel('frame_2', 4)
-    .to(['#logo'], 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame_2")
-    .to(['#cta'], 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2")
+    .to(['#cta'], 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame_2")
+    .to(['#logo'], 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame_2+=0.5")
 
 }
 

@@ -174,3 +174,7 @@ img {
   position: absolute;
   height: auto;
 }
+
+#logo {
+  transform: scale(1.1);
+}
